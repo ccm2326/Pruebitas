@@ -1,0 +1,26 @@
+COMO USAR EL PAPER EXTRACTOR
+============================
+
+Este extractor combina metadatos y elementos visuales de papers de investigación.
+
+COMANDOS:
+
+Windows:
+python paper_extractor.py https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4136787/
+
+Mac/Linux:
+python3 paper_extractor.py https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4136787/
+
+
+LO QUE EXTRAE:
+- Metadatos del paper (título, autores, revista, DOI, etc.)
+- Imágenes del paper (numeradas del 1 al N)
+- Tablas del paper (numeradas del 1 al N)
+
+ARCHIVOS GENERADOS:
+- paper_data.json (datos completos)
+- images/ (carpeta con imágenes)
+- tables/ (carpeta con tablas HTML)
+
+EJEMPLO DE URL:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4136787/
